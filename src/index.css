@@ -1,0 +1,203 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); 
+/* body{
+  background-color: pink;
+} */
+.check_box {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+}
+.form-group label {
+  display: block;
+  text-align: left;
+}
+.checkbox_wrapper {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.checkbox_wrapper input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.checkbox_wrapper input:checked + span {
+  background-color: #000;
+  border-color: #000;
+}
+.checkbox_wrapper input:checked + span:after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(35deg);
+  left: 6px;
+  top: 2px;
+}
+
+.cm_add_more_btn {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-left: auto;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  background: #d7d7d7;
+    border: none;
+    color: #fff;
+    padding: 15px 16px;
+    box-shadow: 0px 2px 6px #bcbcbc;
+
+
+}
+.container h3 {
+  text-align: left;
+}
+
+.cm_add_more_btn:before {
+  content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    background: #000;
+    right: 15px;
+    top: 8px;
+}
+
+.chart-parent-body{
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.chart-parent{
+  /* background: pink; */
+  height: 200px;
+  margin-bottom: 35px
+}
+.cm_add_more_btn:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background: #000;
+  left: 11px;
+  top: 12px;
+}
+.cm_add_more_btn:hover {
+  opacity: 0.8;
+}
+.chart-parent-body .col-md-5 ,.chart-parent-body .col-md-12{
+  box-shadow: 0px 1px 4px #959595;
+}
+table {
+  font-size: 14px;
+}
+
+thead.thead-dark {
+  background: #000;
+  color: #fff;
+}
+
+thead.thead-dark th {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+tbody {
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+
+tbody td {
+  padding: 12px 5px !important;
+}
+
+.my_date_picker {
+  display: block;
+  border: 1px solid #ced4da;
+  background: transparent;
+  border-radius: 6px;
+  padding: 8px;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.table_action {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.table_action i {
+  color: #4f4e4e;cursor: pointer;
+}
+
+.checkbox_wrapper_white input:checked + span {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.checkbox_wrapper_white input:checked + span:after {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+
+.context_menu {
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 1px 2px 5px;
+  padding: 5px;
+  border-radius: 2px;
+  text-align: left;
+}
+
+.context_menu>ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.context_menu>ul>li {
+    font-size: 0.8rem;
+    border-bottom: 1px solid #9997;
+    cursor: pointer;
+    padding: 10px 6px;
+}
+
+.context_menu>ul>li:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+tbody>tr:hover{
+  background-color: #ececec;
+}
+
+.city_selector__control,.city_selector_menu,.react-select-2-listbox{
+  text-align: left !important;
+
+}
+.text-danger {
+  font-size: 12px;
+  font-weight: 500;margin-left: 4px;
+}
+.city_selector__option {
+  text-align: left;
+}
+.city_selector__option {
+  text-align: left;
+}
