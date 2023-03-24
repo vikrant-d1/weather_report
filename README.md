@@ -6,9 +6,9 @@
 
 Open a terminal window and navigate to the project directory.
 
-Install dependencies: Run npm install to install all the necessary dependencies for your project. This will read the dependencies listed in the package.json file and install them locally.
+Install dependencies: **Run npm install** to install all the necessary dependencies for your project. This will read the dependencies listed in the package.json file and install them locally.
 
-Start the development server: Run npm start to start the development server. This will compile your TypeScript code and start the application on a local server.
+Start the development server: **Run npm start** to start the development server. This will compile your TypeScript code and start the application on a local server.
 
 Open the application: Once the development server has started, open your web browser and navigate to http://localhost:3000 to see your application running.
 
